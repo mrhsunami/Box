@@ -24,4 +24,13 @@
     float volume = self.height * self.width * self.length;
     return volume;
 }
+-(int) fillWithBoxes:(Box *)insideBox{
+    float insideBoxVolume = insideBox.calculateVolume;
+    float outsideBoxVolume = self.calculateVolume;
+    if(insideBoxVolume >= outsideBoxVolume) return 0;
+    else {
+        return (int)(outsideBoxVolume / insideBoxVolume);
+    }
+       
+}
 @end

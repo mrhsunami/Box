@@ -23,5 +23,8 @@
 
 -(float) calculateVolume;
 
+-(int) fillWithBoxes:(Box *)insideBox;
+
+
 @end
 
