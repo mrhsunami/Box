@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D86038A720332EDB009CA714 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D86038A620332EDB009CA714 /* main.m */; };
+		D86038AF20332EED009CA714 /* Box.m in Sources */ = {isa = PBXBuildFile; fileRef = D86038AE20332EED009CA714 /* Box.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		D86038A320332EDB009CA714 /* Box */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Box; sourceTree = BUILT_PRODUCTS_DIR; };
 		D86038A620332EDB009CA714 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D86038AD20332EED009CA714 /* Box.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Box.h; sourceTree = "<group>"; };
+		D86038AE20332EED009CA714 /* Box.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Box.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +44,8 @@
 		D860389A20332EDA009CA714 = {
 			isa = PBXGroup;
 			children = (
+				D86038AD20332EED009CA714 /* Box.h */,
+				D86038AE20332EED009CA714 /* Box.m */,
 				D86038A520332EDB009CA714 /* Box */,
 				D86038A420332EDB009CA714 /* Products */,
 			);
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D86038A720332EDB009CA714 /* main.m in Sources */,
+				D86038AF20332EED009CA714 /* Box.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

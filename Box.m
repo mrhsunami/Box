@@ -10,4 +10,18 @@
 
 @implementation Box
 
+-(Box *) initNewBoxWithHeight:(float)height width:(float)width length:(float)length {
+    self = [super init];
+    if (self) {
+        self.height = height;
+        self.width = width;
+        self.length = length;
+    }
+    return self;
+}
+
+-(float) calculateVolume {
+    float volume = self.height * self.width * self.length;
+    return volume;
+}
 @end
